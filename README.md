@@ -10,11 +10,19 @@
 </div>
 
 <div align="center">
-  <strong>A magisk module which adds some good and working buid.prop tweaks from the internet.
+  <strong>A magisk module which adds some good and working build.prop tweaks from the internet.
 </div>
+
+### Warning: Use this at your own risk!
 
 ### Installation
 - Simply install module via Magisk Manager (NOT TWRP)
 - Reboot to recovery
 - Clear Cache and Dalvik Cache
 - Reboot to system
+
+### Credits
+- All my real pruhs from 7870 community: Neel0210, DAvinash97, Astrako
+- Some XDA posts on build.prop tweaking
+- @topjohnwu For Magisk
+- @zackptg5 For his awesome Magisk Module Template
