@@ -1,0 +1,68 @@
+#Battery Tweaks
+wifi.supplicant_scan_interval=500
+
+#Disable Error Reporting
+ro.kernel.android.checkjni=0
+logcat.live=disable
+
+#Better internet speeds
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.hspa=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
+net.tethering.noprovisioning=true
+
+#Liquid Smooth Ui (not the custom rom)
+sys.use_fifo_ui=1
+
+#Calling Tweaks
+ro.config.vc_call_steps=20
+ro.telephony.call_ring.delay=0
+ring.delay=0
+ro.lge.proximity.delay=10
+mot.proximity.delay=10
+ro.ril.enable.amr.wideband=1
+
+#Better signal
+ro.config.combined_signal=true
+ro.ril.enable.a52=0
+ro.ril.enable.a53=1
+ro.ril.enable.dtm=1
+
+#Faster streaming videos
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-record=false
+
+#Other Quality Tweaks
+ro.media.enc.jpeg.quality=100
+
+#VM Tweaks
+dalvik.vm.dexopt-flags=v=n,o=f,m=y,u=n
+persist.sys.dalvik.hyperthreading=true
+
+#FPS Tweaks (Thanks: Neel0210)
+ro.fps_enable=1
+ro.fps.capsmin=40fps
+ro.fps.capsmax=60fps
+cpu.fps=60
+gpu.fps=60
+
+#Gaming Tweaks (Thanks: Neel0210)
+persist.sys.NV_FPSLIMIT=60
+persist.sys.NV_POWERMODE=1
+persist.sys.NV_PROFVER=25
+persist.sys.NV_STEREOCTRL=1
+persist.sys.NV_STEREOSEPCHG=35
+persist.sys.NV_STEREOSEP=40
+persist.sys.purgeable_assets=1
