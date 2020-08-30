@@ -30,9 +30,9 @@ ro.ril.enable.amr.wideband=1
 
 #Better signal
 ro.config.combined_signal=true
-ro.ril.enable.a52=0
-ro.ril.enable.a53=1
-ro.ril.enable.dtm=1
+ro.ril.enable.a52=1
+ro.ril.enable.a53=0
+ro.ril.enable.dtm=0
 
 #Faster streaming videos
 media.stagefright.enable-player=true
