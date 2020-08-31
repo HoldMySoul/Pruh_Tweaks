@@ -1,12 +1,11 @@
-#Battery Tweaks
+#Battery Tweaks (Got from Internet)
 wifi.supplicant_scan_interval=1000
 
-#Disable Error Reporting
+#Disable Error Reporting (Got from Internet)
 ro.kernel.android.checkjni=0
 logcat.live=disable
-persist.mm.enable.prefetch=true
 
-#Better internet speeds
+#Better internet speeds (Got from Internet)
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
@@ -18,10 +17,12 @@ net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,87380,1048576
 net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
 net.tethering.noprovisioning=true
 
-#Liquid Smooth Ui (not the custom rom)
+#Smoothing Tweaks (Got from Internet)
 sys.use_fifo_ui=1
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
 
-#Calling Tweaks
+#Calling Tweaks (Got from Internet)
 ro.config.vc_call_steps=20
 ro.telephony.call_ring.delay=0
 ring.delay=0
@@ -29,7 +30,7 @@ ro.lge.proximity.delay=10
 mot.proximity.delay=10
 ro.ril.enable.amr.wideband=1
 
-#Faster streaming videos
+#Faster streaming videos (Got from Internet)
 media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
@@ -39,32 +40,25 @@ media.stagefright.enable-aac=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-record=false
 media.stagefright.use-walkman=false
-mmp.enable.3g2=true
 mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
 
-#Other Tweaks
-persist.service.lgospd.enable=0
-persist.service.pcsync.enable=0
-ro.media.enc.jpeg.quality=100
-ro.config.hw_quickpoweron=true
-
-#VM Tweaks
-dalvik.vm.dexopt-flags=v=n,o=f,m=y,u=n
+#VM Tweaks (Got from Internet)
+dalvik.vm.dexopt-flags=v=n,o=a,m=y,u=n
 persist.sys.dalvik.hyperthreading=true
 ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.image-dex2oat-threads=8
 
-#FPS Tweaks (Thanks: Neel0210)
+#FPS Tweaks (Got from Saifur)
 ro.fps_enable=1
 ro.fps.capsmin=40fps
 ro.fps.capsmax=60fps
 cpu.fps=60
 gpu.fps=60
 
-#Gaming Tweaks (Thanks: Neel0210)
+#Gaming Tweaks (Got from Saifur)
 persist.sys.NV_FPSLIMIT=60
 persist.sys.NV_POWERMODE=1
 persist.sys.NV_PROFVER=25
