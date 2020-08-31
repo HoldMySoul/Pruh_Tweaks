@@ -1,9 +1,10 @@
 #Battery Tweaks
-wifi.supplicant_scan_interval=500
+wifi.supplicant_scan_interval=1000
 
 #Disable Error Reporting
 ro.kernel.android.checkjni=0
 logcat.live=disable
+persist.mm.enable.prefetch=true
 
 #Better internet speeds
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
@@ -28,12 +29,6 @@ ro.lge.proximity.delay=10
 mot.proximity.delay=10
 ro.ril.enable.amr.wideband=1
 
-#Better signal
-ro.config.combined_signal=true
-ro.ril.enable.a52=1
-ro.ril.enable.a53=0
-ro.ril.enable.dtm=0
-
 #Faster streaming videos
 media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
@@ -43,13 +38,24 @@ media.stagefright.enable-rtsp=true
 media.stagefright.enable-aac=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-record=false
+media.stagefright.use-walkman=false
+mmp.enable.3g2=true
+mm.enable.smoothstreaming=true
+media.aac_51_output_enabled=true
 
-#Other Quality Tweaks
+#Other Tweaks
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
 ro.media.enc.jpeg.quality=100
+ro.config.hw_quickpoweron=true
 
 #VM Tweaks
 dalvik.vm.dexopt-flags=v=n,o=f,m=y,u=n
 persist.sys.dalvik.hyperthreading=true
+ro.sys.fw.dex2oat_thread_count=8
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.image-dex2oat-threads=8
 
 #FPS Tweaks (Thanks: Neel0210)
 ro.fps_enable=1
