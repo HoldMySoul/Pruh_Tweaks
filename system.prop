@@ -1,5 +1,5 @@
 #Battery Tweaks (Got from Internet)
-wifi.supplicant_scan_interval=1000
+wifi.supplicant_scan_interval=5000
 
 #Disable Error Reporting (Got from Internet)
 ro.kernel.android.checkjni=0
@@ -44,12 +44,19 @@ mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
 
 #VM Tweaks (Got from Internet)
-dalvik.vm.dexopt-flags=v=n,o=a,m=y,u=n
-persist.sys.dalvik.hyperthreading=true
-ro.sys.fw.dex2oat_thread_count=8
+pm.dexopt.install=speed
+pm.dexopt.bg-dexopt=speed
+pm.dexopt.boot=speed
+pm.dexopt.first-boot=speed
+dalvik.vm.image-dex2oat-Xms=8m
+dalvik.vm.image-dex2oat-Xmx=512m
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-Xms=8m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.dex2oat-filter=speed
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-threads=8
-dalvik.vm.image-dex2oat-threads=8
 
 #FPS Tweaks (Got from Saifur)
 ro.fps_enable=1
