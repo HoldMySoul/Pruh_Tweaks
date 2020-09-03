@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v1.0-blue.svg?longCache=true&style=popout-square"
+    <img src="https://img.shields.io/badge/Version-v2.0-blue.svg?longCache=true&style=popout-square"
       alt="Version" />
   <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-August%2031,%202020-green.svg?longCache=true&style=flat-square"
+    <img src="https://img.shields.io/badge/Updated-September%2003,%202020-green.svg?longCache=true&style=flat-square"
       alt="_time_stamp_" />
 </div>
 
@@ -24,5 +24,5 @@
 ### Credits
 - All my real pruhs from 7870 community: Neel0210, DAvinash97, Astrako
 - Some XDA posts on build.prop tweaking
-- @topjohnwu For Magisk
 - @zackptg5 For his awesome Magisk Module Template
+- @topjohnwu For Magisk
