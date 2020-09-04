@@ -13,6 +13,10 @@
   <strong>A magisk module which adds some good and working build.prop tweaks from the internet.
 </div>
 
+### Downloads
+- 1.0 : [`Here`](https://github.com/Avinash-Dwivedi/Pruh_Tweaks/releases/tag/1.0)
+- 2.0 (Final Release) : [`Here`](https://github.com/Avinash-Dwivedi/Pruh_Tweaks/releases/tag/2.0)
+
 ### Warning: Use this at your own risk!
 
 ### Installation
