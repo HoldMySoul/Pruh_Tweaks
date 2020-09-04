@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-  <strong>A magisk module which adds some good and working build.prop tweaks from the internet.
+  <strong>A magisk module which adds some good tweaks from the internet.
 </div>
 
 ### Downloads
